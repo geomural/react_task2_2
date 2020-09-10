@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+#outer {
+  display: flex;
+  width: 100%;
+}
+
+#inner {
+  margin: auto;
+  margin-top: 15px;
+}
+
+#switchBtn {
+  border: none;
+  background-color: transparent;
+  outline: none;
+  float: right;
+  margin-bottom: 10px;
+}
+#switchBtn:focus {
+  border: none;
+}
+
+.cardInfo {
+  width: 270px; 
+  height: 270px;
+  z-index: 1;
+  position: absolute;
+  text-align: center;
+  margin: 15px;  
+}
+
+#cardTable td {
+  vertical-align: top;
+  padding-left:  50px;  
+}
+
+.card img {
+  width: 300px; 
+  height: 300px;
+  z-index: 0;
+  position: relative;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Параметры тени */
+  border-radius: 5px;
+}
+
+.cardName {
+  font-size: 25px;
+  width: 100%;
+}
+
+.card {
+  padding-bottom: 30px;
+}
+
+#switchDiv {
+  width: 100%;
+}
+
+.bottomInfo {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
+.card .cardBtn {
+  float: right;
+  color: red;
+  background-color: transparent;
+  border-color: red;
+  border-radius: 20px;
+  border-width: 1px;
+  padding: 5px 10px;
+  outline: none;
+  cursor: pointer;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+#listDiv {
+  width: calc(100vw - 100px);
+}
+
+#listDiv table {
+  width: 100%;
+}
+#listDiv img {
+  width: 100px; 
+  height: 100px;
+}
+
+#listDiv .cardBtn {
+  float: right;
+  color: red;
+  background-color: transparent;
+  border-color: red;
+  border-radius: 20px;
+  border-width: 1px;
+  padding: 5px 10px;
+  outline: none;
+  cursor: pointer;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.card .price {
+  float: left;
+  color: red;
+}
+
+#listDiv .price {
+  color: red;
+  width: 20%;
+}
+
+.itemListRow {
+  width: 100%;
+  background-color: #f5f5f5;
+}
+
+.test{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.divAsTd {
+  margin: 0 5px;
+  flex: 1 1 calc(100vw - 100px)/5;
+  align-self: center;
+}
